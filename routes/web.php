@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\Studentcontroller;
 use App\Http\Controllers\Maincontroller;
 use Illuminate\Support\Facades\Auth;
 
@@ -24,6 +25,7 @@ Route::get('/', function () {
 
 });
 
+Route::resource('student',Studentcontroller::class);
 Route::post('/auth/save',[MainController::class, 'save'])->name('auth.save');
 Route::post('/auth/check',[MainController::class, 'check'])->name('auth.check');
 Route::get('/auth/logout',[MainController::class, 'logout'])->name('auth.logout');
