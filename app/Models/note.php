@@ -5,8 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class student extends Model
+class note extends Model
 {
     use HasFactory;
-    protected $fillable = ['name', 'email', 'phone_number','course'];
+     protected $fillable = ['module', 'moyenne', 'note_evaluation','rang','admis'];
 }
