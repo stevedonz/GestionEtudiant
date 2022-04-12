@@ -129,7 +129,7 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="{{ asset('/contacts/create.blade.php') }}">Student</a>
+            <a class="nav-link active" aria-current="page" href="{{ asset('/students') }}">Student</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href=""></a>

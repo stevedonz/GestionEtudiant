@@ -19,7 +19,7 @@
                                         <th><h4 style="color: chocolate;">#</th>
                                         <th><h4 style="color: chocolate;">Name</th>
                                         <th><h4 style="color: chocolate;">Address</th>
-                                        <th><h4 style="color: chocolate;">Telephone</th>
+                                        <th><h4 style="color: chocolate;">Number</th>
                                         <th><h4 style="color: chocolate;">Actions</th>
                                     </tr>
                                 </thead>

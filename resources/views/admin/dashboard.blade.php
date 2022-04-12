@@ -35,9 +35,9 @@
 
                    <ul>
                        <li><a href="/admin/dashboard">Dashboard</a></li>
-                       <li><a href="/admin/profile">Profile</a></li>
-                       <li><a href="/admin/settings">Settings</a></li>
-                       <li><a href="/admin/staff">Staff</a></li>
+                       <li><a href="{{ asset('/contact') }}">Users</a></li>
+                     
+                    
                    </ul>
             </div>
          </div>
