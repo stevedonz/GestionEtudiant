@@ -16,9 +16,9 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th><h4 style="color: chocolate;">#</th>
+                                        <th><h4 style="color: chocolate;">N°</th>
                                         <th><h4 style="color: chocolate;">Name</th>
-                                        <th><h4 style="color: chocolate;">Address</th>
+                                        <th><h4 style="color: chocolate;">Email</th>
                                         <th><h4 style="color: chocolate;">Number</th>
                                         <th><h4 style="color: chocolate;">Actions</th>
                                     </tr>
